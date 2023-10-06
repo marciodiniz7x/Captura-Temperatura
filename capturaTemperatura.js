@@ -6,7 +6,7 @@ async function capturarTemperatura() {
 
   try {
     // Navegue para o site que contém informações sobre a temperatura
-    await page.goto('https://exemplo.com'); // Substitua com o URL correto
+    await page.goto('https://openweathermap.org/city/3406334'); // Substitua com o URL correto
 
     // Use seletor CSS ou XPath para encontrar o elemento que contém a temperatura
     const temperaturaElement = await page.$('.classe-da-temperatura'); // Substitua com o seletor correto
